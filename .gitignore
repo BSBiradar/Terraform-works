@@ -1,0 +1,22 @@
+
+#Terraform state files
+
+*.terraform
+*.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+
+#terraform crash log files
+
+crash.log
+
+#terraform tfvars files
+
+terraform.tfvars
+.terraform directory
+.terraform/
+
+#credentials
+
+.env
+/secrets

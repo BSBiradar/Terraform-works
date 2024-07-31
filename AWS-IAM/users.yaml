@@ -1,0 +1,15 @@
+users:
+  - username: iam-user
+    roles: [AdministratorAccess]
+
+  - username: ec2-user
+    roles: [AmazonEC2FullAccess]
+
+  - username: s3-user
+    roles: [AmazonS3FullAccess]
+
+  - username: eks-user
+    roles: [AmazonEKS_CNI_Policy, AmazonEKSClusterPolicy]
+
+  - username: billing-user
+    roles: [AWSBillingConductorFullAccess]
